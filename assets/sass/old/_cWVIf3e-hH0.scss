@@ -1,0 +1,295 @@
+/*1461716574,*/
+
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.pluginFacepileConnectLast,
+.pluginFacepileConnectConnected .pluginFacepileConnectFirst {
+  display: inline-block !important;
+
+  -webkit-animation: show .4s;
+}
+
+.pluginFacepileConnectFirst,
+.pluginFacepileConnectConnected .pluginFacepileConnectLast {
+  display: none !important;
+}
+
+._2lqg {
+  overflow-y: auto;
+
+  border: 1px solid #e9eaed;
+  border-top: 0;
+  background: #f6f7f8;
+  > div {
+    position: relative;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+._h7n {
+  position: relative;
+
+  border-color: #e9eaed #dfe0e4 #d0d1d5;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .12);
+  ._h7o {
+    position: absolute;
+    right: 8px;
+
+    margin: 2px 0;
+  }
+}
+
+._2lqh {
+  width: 100%;
+}
+
+._2p3a ._3x-2 {
+  overflow: hidden;
+}
+
+._3o6i {
+  margin-bottom: 10px;
+}
+
+._57i_ {
+  line-height: 1.358;
+
+  margin-bottom: 2px;
+
+  color: #4e5665;
+  a {
+    font-weight: bold;
+
+    color: #141823;
+  }
+}
+
+._57j2 ._57j3 li {
+  margin-top: 2px;
+  margin-right: 2px;
+}
+
+._1drm {
+  position: relative;
+
+  overflow: hidden;
+
+  background: #fff;
+  ._1drn {
+    border: 1px solid #000;
+  }
+  ._1dro {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 40px;
+    left: 0;
+  }
+}
+
+._1b90 ._1dro {
+  bottom: 0;
+}
+
+._2zfs {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+._1dro {
+  ._1drp {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.358;
+
+    display: inline-block;
+    overflow: hidden;
+
+    margin-bottom: -5px;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    color: #3b5998;
+  }
+  ._1drq {
+    font-size: 12px;
+    line-height: 1.358;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    color: #141823;
+  }
+  ._2tnv {
+    display: inline-block;
+    overflow: hidden;
+
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: inherit;
+    text-overflow: ellipsis;
+  }
+}
+
+._1drm ._1z7u {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  height: 24px;
+}
+
+._4o5p {
+  .pluginConnectButtonConnected,
+  .pluginConnectButtonDisconnected {
+    border: 1px solid rgba(0, 0, 0, .12);
+    background-clip: padding-box;
+  }
+}
+
+._4o5q button {
+  border: 1px solid rgba(0, 0, 0, .12);
+  background-clip: padding-box;
+}
+
+._1drm {
+  &._1b90,
+  &._1ds4 {
+    border: 1px solid #e9eaed;
+  }
+  &._1ds3 {
+    ._1drn {
+      border: 2px solid #fff;
+      box-shadow: 0 1px 6px rgba(0, 0, 0, .5);
+    }
+    ._1drp {
+      color: #fff;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, .9);
+    }
+    ._1drq {
+      color: #fff;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, .9);
+      ._2tnv {
+        color: #fff;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, .9);
+      }
+    }
+  }
+  &._1ds4 ._1z7u {
+    padding-top: 7px;
+
+    border-top: 1px solid #e9eaed;
+    background: #f6f7f8;
+  }
+}
+
+.pluginConnectButton a._opc,
+form.async_saving a._opc {
+  margin: 0;
+
+  opacity: 1;
+}
+
+.pluginConnectButton a._opd {
+  color: #9197a3;
+}
+
+._29bd {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.sp_g363wR49-T- {
+  display: inline-block;
+
+  width: 16px;
+  height: 16px;
+
+  background-image: url(/rsrc.php/v2/yG/r/4cMtbdOQ6Yy.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  &.sx_512998 {
+    width: 24px;
+    height: 24px;
+
+    background-position: 0 0;
+  }
+  &.sx_3fbd18 {
+    width: 24px;
+    height: 24px;
+
+    background-position: 0 -25px;
+  }
+  &.sx_a516c3 {
+    background-position: 0 -50px;
+  }
+  &.sx_603e1f {
+    background-position: 0 -67px;
+  }
+  &.sx_4b40ef {
+    background-position: 0 -84px;
+  }
+  &.sx_71c87a {
+    background-position: 0 -101px;
+  }
+  &.sx_ace988 {
+    background-position: 0 -118px;
+  }
+  &.sx_ad3d21 {
+    background-position: 0 -135px;
+  }
+  &.sx_14d897 {
+    width: 12px;
+    height: 12px;
+
+    background-position: 0 -152px;
+  }
+  &.sx_043707 {
+    width: 12px;
+    height: 12px;
+
+    background-position: 0 -165px;
+  }
+  &.sx_4b8f47 {
+    width: 12px;
+    height: 12px;
+
+    background-position: 0 -178px;
+  }
+}
+
+#bootloader_IXyz3 {
+  height: 42px;
+}
+
+.bootloader_IXyz3 {
+  display: block !important;
+}
