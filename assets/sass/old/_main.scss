@@ -145,7 +145,7 @@ a.top {
 }
 
 .menuHolder {
-  background: url('images/buttons_background.gif') top left repeat-x;
+  background: url('../img/buttons_background.gif') top left repeat-x;
 }
 
 #Menu1 {
@@ -157,7 +157,7 @@ a.top {
       color: #a4e438;
     }
     &.contatcusBG {
-      background: url('images/last-menu-item-bg.gif') top left repeat-x;
+      background: url('../img/last-menu-item-bg.gif') top left repeat-x;
       > a:hover {
         color: #fff;
       }
@@ -989,7 +989,7 @@ td {
   &.CenterPanel2 {
     padding-top: 35px;
 
-    background: url('images/history_page_bg.jpg') top left repeat-y;
+    background: url('../img/history_page_bg.jpg') top left repeat-y;
     /* PADDING: 5px 5px 5px 5px;*/
 
     WIDTH: 687px;
@@ -1187,7 +1187,7 @@ a.Copyright {
   font-weight: bold;
 
   color: #fff;
-  background: #63acdc url(images/membertitle.gif) top left no-repeat;
+  background: #63acdc url(../img/membertitle.gif) top left no-repeat;
 }
 
 .tableborder {
@@ -1480,7 +1480,7 @@ table ul,
 li {
   margin-right: 0;
 
-  list-style-image: url('images/table_bullet.gif');
+  list-style-image: url('../img/table_bullet.gif');
 }
 
 a {
@@ -1549,7 +1549,7 @@ li {
   margin: 0;
 
   list-style-position: outside;
-  list-style-image: url('images/blue_bullet1.gif');
+  list-style-image: url('../img/blue_bullet1.gif');
 }
 
 .siteMap {
@@ -1670,7 +1670,7 @@ li {
 
   color: #4e5d7f;
   border-top: top;
-  background-image: url('images/kit color.jpg');
+  background-image: url('../img/kit color.jpg');
   background-repeat: repeat-x;
 
   direction: rtl;
@@ -1789,12 +1789,12 @@ li {
 }
 
 .assutaEmail {
-  background: url(images/assutaeftk.gif);
+  background: url(../img/assutaeftk.gif);
   background-repeat: no-repeat;
 }
 
 .assutaCall {
-  background: url(images/call_b.jpg);
+  background: url(../img/call_b.jpg);
   background-repeat: no-repeat;
 }
 
@@ -1810,7 +1810,7 @@ li {
   text-align: center;
 
   color: #fff;
-  background: url('/template/images/green_tab.jpg');
+  background: url('../img/green_tab.jpg');
 }
 
 .blueButton {
@@ -1825,7 +1825,7 @@ li {
   text-align: center;
 
   color: #243158;
-  background: url('/template/images/gray_tab.jpg');
+  background: url('../img/green_tab.jpg');
 }
 
 .sample_attach_a {
@@ -1875,7 +1875,7 @@ li {
 /****** Departments menu *********/
 
 .bottombackg {
-  background: #e5eff6 url('images/department_bg.jpg') bottom no-repeat;
+  background: #e5eff6 url('../img/department_bg.jpg') bottom no-repeat;
 }
 
 .DepartmentsMenu {
@@ -1890,7 +1890,7 @@ li {
   cursor: pointer;
 
   color: #102996;
-  background: #dae8f2 url('images/department_bg1.jpg') top left no-repeat;
+  background: #dae8f2 url('../img/department_bg1.jpg') top left no-repeat;
   a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -1914,7 +1914,7 @@ li {
   height: 34px;
 
   color: #102996;
-  background: #294696 url('images/department_bg_over.jpg') top left no-repeat;
+  background: #294696 url('../img/department_bg_over.jpg') top left no-repeat;
 }
 
 .DepartmentsMenuOver1 {
@@ -1927,7 +1927,7 @@ li {
   height: 34px;
 
   color: #102996;
-  background: #294696 url('images/department_bg_over1.jpg') top left no-repeat;
+  background: #294696 url('../img/department_bg_over1.jpg') top left no-repeat;
 }
 
 .DepartmentsMenuOver a,
@@ -1951,7 +1951,7 @@ li {
     padding-left: 18px;
 
     color: #0f2a95;
-    background: url('images/level2_arrow.gif') top left no-repeat;
+    background: url('../img/level2_arrow.gif') top left no-repeat;
   }
   .level2_selected {
     display: block;
@@ -1960,7 +1960,7 @@ li {
     padding-left: 18px;
 
     color: #030f40;
-    background: url('images/level2_arrow.gif') top left no-repeat;
+    background: url('../img/level2_arrow.gif') top left no-repeat;
   }
   .level2:hover {
     color: #030f40;
@@ -1971,14 +1971,14 @@ li {
 
 .ContactLeftFormTbl {
   border-bottom: 1px solid #9ea9be;
-  background: url('images/contact_bg.gif') top left repeat-y;
+  background: url('../img/contact_bg.gif') top left repeat-y;
 }
 
 .ContactLeftFormTitle {
   width: 230px;
   height: 124px;
 
-  background: url('images/contact_top_bg.jpg') top left no-repeat;
+  background: url('../img/contact_top_bg.jpg') top left no-repeat;
 }
 
 .ContactLeftFormInnerTitle {
@@ -2124,7 +2124,7 @@ li {
   height: 100%;
   padding-top: 20px;
 
-  background: #eef5fa url('images/home_bg.jpg') top left repeat-x;
+  background: #eef5fa url('../img/home_bg.jpg') top left repeat-x;
 }
 
 .homeBlueLink {
@@ -2222,7 +2222,6 @@ div#divBanner {
   position: absolute;
   top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop : document.body.scrollTop);
   top: 100px;
-  left: 0;
   left: 0;
 }
 
@@ -2508,7 +2507,7 @@ td#CaptchaIcons {
   height: 34px;
   margin: auto;
 
-  background: url('images/department_separator.gif') bottom center no-repeat;
+  background: url('../img/department_separator.gif') bottom center no-repeat;
 }
 
 .paddinglef15 {
@@ -2522,7 +2521,7 @@ td#CaptchaIcons {
 }
 
 .arrowright {
-  background: url('images/arrow3.gif') right center no-repeat;
+  background: url('../img/arrow3.gif') right center no-repeat;
   .HTMLtitle {
     padding-right: 8px;
   }
@@ -2536,13 +2535,13 @@ td#CaptchaIcons {
 .submenusep {
   height: 42px;
 
-  background: url('images/submenu_sep.gif') top right no-repeat;
+  background: url('../img/submenu_sep.gif') top right no-repeat;
 }
 
 .bottomText .sepperator {
   width: 24px;
 
-  background: url('images/dotnew.gif') center center no-repeat;
+  background: url('../img/dotnew.gif') center center no-repeat;
 
   size: 0;
 }
@@ -2551,7 +2550,7 @@ td#CaptchaIcons {
   width: 100%;
   height: 30px;
 
-  background: url('images/bottom_stripe.jpg') top left repeat-x;
+  background: url('../img/bottom_stripe.jpg') top left repeat-x;
 }
 
 .topMenu {
@@ -2561,7 +2560,7 @@ td#CaptchaIcons {
 
 .topmenuh {
   .separator {
-    background: url('images/betbutton1.gif') right no-repeat;
+    background: url('../img/betbutton1.gif') right no-repeat;
   }
   a {
     text-decoration: none;
@@ -2626,7 +2625,7 @@ td#CaptchaIcons {
   width: 295px;
   height: 49px;
 
-  background: url('images/contact_bg.jpg') top left no-repeat;
+  background: url('../img/contact_bg.jpg') top left no-repeat;
   .contact_title {
     font-size: 16px;
     font-weight: bold;
@@ -2993,7 +2992,7 @@ select {
 
   height: 140px;
 
-  background: url('images/new_contact_arrow.png') 192px center no-repeat;
+  background: url('../img/new_contact_arrow.png') 192px center no-repeat;
 }
 
 #new_contact_form #rank,
@@ -3028,7 +3027,7 @@ select {
   width: 28px;
   height: 43px;
 
-  background: url('images/rank_gold.png') top left no-repeat;
+  background: url('../img/rank_gold.png') top left no-repeat;
 }
 
 #bottom_rank.silver,
@@ -3042,7 +3041,7 @@ select {
   width: 28px;
   height: 43px;
 
-  background: url('images/rank_silver.png') top left no-repeat;
+  background: url('../img/rank_silver.png') top left no-repeat;
 }
 
 #bottom_rank.bronze,
@@ -3056,7 +3055,7 @@ select {
   width: 28px;
   height: 43px;
 
-  background: url('images/rank_bronze.png') top left no-repeat;
+  background: url('../img/rank_bronze.png') top left no-repeat;
 }
 
 .popup {
@@ -3116,7 +3115,7 @@ select {
     width: 45px;
     height: 70px;
 
-    background: url('images/rank_gold_big.png') top left no-repeat;
+    background: url('../img/rank_gold_big.png') top left no-repeat;
   }
   .silver {
     position: absolute;
@@ -3126,7 +3125,7 @@ select {
     width: 45px;
     height: 70px;
 
-    background: url('images/rank_silver_big.png') top left no-repeat;
+    background: url('../img/rank_silver_big.png') top left no-repeat;
   }
   .bronze {
     position: absolute;
@@ -3136,7 +3135,7 @@ select {
     width: 45px;
     height: 70px;
 
-    background: url('images/rank_bronze_big.png') top left no-repeat;
+    background: url('../img/rank_bronze_big.png') top left no-repeat;
   }
 }
 
@@ -3176,7 +3175,7 @@ select {
 .header_bg {
   height: 46px;
 
-  background: url('images/header_stripe_bg.jpg') top right repeat-x;
+  background: url('../img/header_stripe_bg.jpg') top right repeat-x;
   .cat_name {
     font-family: Arial,Helvetica,sans-serif;
     font-size: 13pt;
@@ -3207,7 +3206,7 @@ td.CenterPanel.relax_center {
   border-right: 1px solid #d2d2d2;
   border-bottom: 2px solid #6ca524;
   border-left: 1px solid #d2d2d2;
-  background: url('images/contact_relax_bg.jpg') top right repeat-x;
+  background: url('../img/contact_relax_bg.jpg') top right repeat-x;
   .title {
     font-size: 16px;
     font-weight: bold;
@@ -3288,7 +3287,7 @@ td.CenterPanel.relax_center {
     list-style-image: none;
 
     border-bottom: 1px solid #fff;
-    background: #e6e6e6 url('images/relax_menu_bg.jpg') top right repeat-x;
+    background: #e6e6e6 url('../img/relax_menu_bg.jpg') top right repeat-x;
     &.last {
       border-bottom: none;
     }
@@ -3305,7 +3304,7 @@ td.CenterPanel.relax_center {
       text-decoration: none;
 
       color: #666;
-      background: url('images/relax_bullet.png') 162px 12px no-repeat;
+      background: url('../img/relax_bullet.png') 162px 12px no-repeat;
       &:hover {
         color: #112996;
       }
@@ -3397,8 +3396,8 @@ td.CenterPanel.relax_center {
 
   width: 1010px;
   min-height: 673px;
+  /* background: url('images/app-download/main_bg.jpg') top right no-repeat; */
 
-  background: url('images/app-download/main_bg.jpg') top right no-repeat;
   background-size: cover;
   .inner-content {
     position: relative;
@@ -3427,10 +3426,8 @@ td.CenterPanel.relax_center {
         width: 587px;
         min-height: 245px;
 
-        -webkit-border-radius: 5px;
-           -moz-border-radius: 5px;
-                border-radius: 5px;
-        background: url('images/app-download/transparent-bg.png');
+        border-radius: 5px;
+        /* background: url('images/app-download/transparent-bg.png'); */
         .content {
           padding: 20px;
           h1 {

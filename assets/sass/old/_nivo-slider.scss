@@ -16,7 +16,7 @@
 
   margin-bottom: 10px;
 
-  background: url('images/loading.gif') no-repeat 50% 50%;
+  /* background: url('images/loading.gif') no-repeat 50% 50%; */
   img {
     position: absolute;
     top: 0;
@@ -130,7 +130,7 @@
 
     color: #1d3e83;
     border: 0;
-    background: url('images/bullet_new.png') no-repeat;
+    /* background: url('images/bullet_new.png') no-repeat; */
     &.active {
       color: #fff;
       background-position: 0 -21px;

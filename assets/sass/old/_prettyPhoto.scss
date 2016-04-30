@@ -18,13 +18,13 @@ div {
     }
     .pp_top {
       .pp_left {
-        background: url(images/prettyPhoto/default/sprite.png) -78px -93px no-repeat;
+        background: url(../img/sprite2.png) -78px -93px no-repeat;
       }
       .pp_middle {
-        background: url(images/prettyPhoto/default/sprite_x.png) top left repeat-x;
+        background: url(../img/sprite_x.png) top left repeat-x;
       }
       .pp_right {
-        background: url(images/prettyPhoto/default/sprite.png) -112px -93px no-repeat;
+        background: url(../img/sprite2.png) -112px -93px no-repeat;
       }
     }
     .pp_content .ppt {
@@ -34,23 +34,23 @@ div {
       .pp_left {
         padding-left: 13px;
 
-        background: url(images/prettyPhoto/default/sprite_y.png) -7px 0 repeat-y;
+        background: url(../img/sprite_y.png) -7px 0 repeat-y;
       }
       .pp_right {
         padding-right: 13px;
 
-        background: url(images/prettyPhoto/default/sprite_y.png) top right repeat-y;
+        background: url(../img/sprite_y.png) top right repeat-y;
       }
     }
     .pp_next:hover {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/default/sprite_next.png) center right no-repeat;
+      background: url(../img/sprite_next.png) center right no-repeat;
     }
     .pp_previous:hover {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/default/sprite_prev.png) center left no-repeat;
+      background: url(../img/sprite_prev.png) center left no-repeat;
     }
     .pp_expand {
       width: 28px;
@@ -58,11 +58,11 @@ div {
 
       cursor: pointer;
 
-      background: url(images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;
+      background: url(../img/sprite2.png) 0 -29px no-repeat;
       &:hover {
         cursor: pointer;
 
-        background: url(images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;
+        background: url(../img/sprite2.png) 0 -56px no-repeat;
       }
     }
     .pp_contract {
@@ -71,11 +71,11 @@ div {
 
       cursor: pointer;
 
-      background: url(images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;
+      background: url(../img/sprite2.png) 0 -84px no-repeat;
       &:hover {
         cursor: pointer;
 
-        background: url(images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;
+        background: url(../img/sprite2.png) 0 -113px no-repeat;
       }
     }
     .pp_close {
@@ -84,11 +84,11 @@ div {
 
       cursor: pointer;
 
-      background: url(images/prettyPhoto/default/sprite.png) 2px 1px no-repeat;
+      background: url(../img/sprite2.png) 2px 1px no-repeat;
     }
     .pp_gallery ul li a {
       border: 1px solid #aaa;
-      background: url(images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;
+      background: url(../img/default_thumb.png) center center #f8f8f8;
     }
     .pp_social {
       margin-top: 7px;
@@ -105,13 +105,13 @@ div {
         width: 30px;
         height: 30px;
 
-        background: url(images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;
+        background: url(../img/sprite2.png) -51px 1px no-repeat;
       }
       .pp_pause {
         width: 30px;
         height: 30px;
 
-        background: url(images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;
+        background: url(../img/sprite2.png) -51px 1px no-repeat;
         background-position: -51px -29px;
       }
     }
@@ -121,7 +121,7 @@ div {
         height: 20px;
         margin: 4px 0 0;
 
-        background: url(images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;
+        background: url(../img/sprite2.png) -31px -3px no-repeat;
       }
       &.pp_arrow_next {
         left: 52px;
@@ -130,7 +130,7 @@ div {
         height: 20px;
         margin: 4px 0 0;
 
-        background: url(images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;
+        background: url(../img/sprite2.png) -31px -3px no-repeat;
         background-position: -82px -3px;
       }
     }
@@ -182,56 +182,56 @@ div {
     }
     .pp_bottom {
       .pp_left {
-        background: url(images/prettyPhoto/default/sprite.png) -78px -127px no-repeat;
+        background: url(../img/sprite2.png) -78px -127px no-repeat;
       }
       .pp_middle {
-        background: url(images/prettyPhoto/default/sprite_x.png) bottom left repeat-x;
+        background: url(../img/sprite_x.png) bottom left repeat-x;
       }
       .pp_right {
-        background: url(images/prettyPhoto/default/sprite.png) -112px -127px no-repeat;
+        background: url(../img/sprite2.png) -112px -127px no-repeat;
       }
     }
     .pp_loaderIcon {
-      background: url(images/prettyPhoto/default/loader.gif) center center no-repeat;
+      background: url(../img/loader.gif) center center no-repeat;
     }
   }
   &.light_rounded {
     .pp_top {
       .pp_left {
-        background: url(images/prettyPhoto/light_rounded/sprite.png) -88px -53px no-repeat;
+        background: url(../img/sprite3.png) -88px -53px no-repeat;
       }
       .pp_right {
-        background: url(images/prettyPhoto/light_rounded/sprite.png) -110px -53px no-repeat;
+        background: url(../img/sprite3.png) -110px -53px no-repeat;
       }
     }
     .pp_next:hover {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/light_rounded/btnNext.png) center right no-repeat;
+      background: url(../img/light_rounded/btnNext.png) center right no-repeat;
     }
     .pp_previous:hover {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/light_rounded/btnPrevious.png) center left no-repeat;
+      background: url(../img/light_rounded/btnPrevious.png) center left no-repeat;
     }
     .pp_expand {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/light_rounded/sprite.png) -31px -26px no-repeat;
+      background: url(../img/sprite3.png) -31px -26px no-repeat;
       &:hover {
         cursor: pointer;
 
-        background: url(images/prettyPhoto/light_rounded/sprite.png) -31px -47px no-repeat;
+        background: url(../img/sprite3.png) -31px -47px no-repeat;
       }
     }
     .pp_contract {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/light_rounded/sprite.png) 0 -26px no-repeat;
+      background: url(../img/sprite3.png) 0 -26px no-repeat;
       &:hover {
         cursor: pointer;
 
-        background: url(images/prettyPhoto/light_rounded/sprite.png) 0 -47px no-repeat;
+        background: url(../img/sprite3.png) 0 -47px no-repeat;
       }
     }
     .pp_close {
@@ -240,82 +240,82 @@ div {
 
       cursor: pointer;
 
-      background: url(images/prettyPhoto/light_rounded/sprite.png) -1px -1px no-repeat;
+      background: url(../img/sprite3.png) -1px -1px no-repeat;
     }
     .pp_nav {
       .pp_play {
         width: 14px;
         height: 15px;
 
-        background: url(images/prettyPhoto/light_rounded/sprite.png) -1px -100px no-repeat;
+        background: url(../img/sprite3.png) -1px -100px no-repeat;
       }
       .pp_pause {
         width: 14px;
         height: 15px;
 
-        background: url(images/prettyPhoto/light_rounded/sprite.png) -24px -100px no-repeat;
+        background: url(../img/sprite3.png) -24px -100px no-repeat;
       }
     }
     .pp_arrow_previous {
-      background: url(images/prettyPhoto/light_rounded/sprite.png) 0 -71px no-repeat;
+      background: url(../img/sprite3.png) 0 -71px no-repeat;
     }
     .pp_arrow_next {
-      background: url(images/prettyPhoto/light_rounded/sprite.png) -22px -71px no-repeat;
+      background: url(../img/sprite3.png) -22px -71px no-repeat;
     }
     .pp_bottom {
       .pp_left {
-        background: url(images/prettyPhoto/light_rounded/sprite.png) -88px -80px no-repeat;
+        background: url(../img/sprite3.png) -88px -80px no-repeat;
       }
       .pp_right {
-        background: url(images/prettyPhoto/light_rounded/sprite.png) -110px -80px no-repeat;
+        background: url(../img/sprite3.png) -110px -80px no-repeat;
       }
     }
   }
   &.dark_rounded {
     .pp_top {
       .pp_left {
-        background: url(images/prettyPhoto/dark_rounded/sprite.png) -88px -53px no-repeat;
+        background: url(../img/dark_rounded/sprite.png) -88px -53px no-repeat;
       }
       .pp_right {
-        background: url(images/prettyPhoto/dark_rounded/sprite.png) -110px -53px no-repeat;
+        background: url(../img/dark_rounded/sprite.png) -110px -53px no-repeat;
       }
     }
     .pp_content_container {
       .pp_left {
-        background: url(images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat-y;
+        background: url(../img/dark_rounded/contentPattern.png) top left repeat-y;
       }
       .pp_right {
-        background: url(images/prettyPhoto/dark_rounded/contentPattern.png) top right repeat-y;
+        background: url(../img/dark_rounded/contentPattern.png) top right repeat-y;
       }
     }
     .pp_next:hover {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/dark_rounded/btnNext.png) center right no-repeat;
+      background: url(../img/dark_rounded/btnNext.png) center right no-repeat;
     }
     .pp_previous:hover {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/dark_rounded/btnPrevious.png) center left no-repeat;
+      background: url(../img/dark_rounded/btnPrevious.png) center left no-repeat;
     }
     .pp_expand {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/dark_rounded/sprite.png) -31px -26px no-repeat;
+      background: url(../img/dark_rounded/sprite.png) -31px -26px no-repeat;
       &:hover {
         cursor: pointer;
 
-        background: url(images/prettyPhoto/dark_rounded/sprite.png) -31px -47px no-repeat;
+        background: url(../img/dark_rounded/sprite.png) -31px -47px no-repeat;
       }
     }
     .pp_contract {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/dark_rounded/sprite.png) 0 -26px no-repeat;
+      background: url(../img/dark_rounded/sprite.png) 0 -26px no-repeat;
       &:hover {
         cursor: pointer;
 
-        background: url(images/prettyPhoto/dark_rounded/sprite.png) 0 -47px no-repeat;
+        background: url(../img/dark_rounded/sprite.png) 0 -47px no-repeat;
       }
     }
     .pp_close {
@@ -324,7 +324,7 @@ div {
 
       cursor: pointer;
 
-      background: url(images/prettyPhoto/dark_rounded/sprite.png) -1px -1px no-repeat;
+      background: url(../img/dark_rounded/sprite.png) -1px -1px no-repeat;
     }
     .pp_description {
       margin-right: 85px;
@@ -336,31 +336,31 @@ div {
         width: 14px;
         height: 15px;
 
-        background: url(images/prettyPhoto/dark_rounded/sprite.png) -1px -100px no-repeat;
+        background: url(../img/dark_rounded/sprite.png) -1px -100px no-repeat;
       }
       .pp_pause {
         width: 14px;
         height: 15px;
 
-        background: url(images/prettyPhoto/dark_rounded/sprite.png) -24px -100px no-repeat;
+        background: url(../img/dark_rounded/sprite.png) -24px -100px no-repeat;
       }
     }
     .pp_arrow_previous {
-      background: url(images/prettyPhoto/dark_rounded/sprite.png) 0 -71px no-repeat;
+      background: url(../img/dark_rounded/sprite.png) 0 -71px no-repeat;
     }
     .pp_arrow_next {
-      background: url(images/prettyPhoto/dark_rounded/sprite.png) -22px -71px no-repeat;
+      background: url(../img/dark_rounded/sprite.png) -22px -71px no-repeat;
     }
     .pp_bottom {
       .pp_left {
-        background: url(images/prettyPhoto/dark_rounded/sprite.png) -88px -80px no-repeat;
+        background: url(../img/dark_rounded/sprite.png) -88px -80px no-repeat;
       }
       .pp_right {
-        background: url(images/prettyPhoto/dark_rounded/sprite.png) -110px -80px no-repeat;
+        background: url(../img/dark_rounded/sprite.png) -110px -80px no-repeat;
       }
     }
     .pp_loaderIcon {
-      background: url(images/prettyPhoto/dark_rounded/loader.gif) center center no-repeat;
+      background: url(../img/dark_rounded/loader.gif) center center no-repeat;
     }
   }
   &.dark_square {
@@ -376,26 +376,26 @@ div {
       color: #fff;
     }
     .pp_loaderIcon {
-      background: url(images/prettyPhoto/dark_square/loader.gif) center center no-repeat;
+      background: url(../img/dark_square/loader.gif) center center no-repeat;
     }
     .pp_expand {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/dark_square/sprite.png) -31px -26px no-repeat;
+      background: url(../img/dark_square/sprite.png) -31px -26px no-repeat;
       &:hover {
         cursor: pointer;
 
-        background: url(images/prettyPhoto/dark_square/sprite.png) -31px -47px no-repeat;
+        background: url(../img/dark_square/sprite.png) -31px -47px no-repeat;
       }
     }
     .pp_contract {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/dark_square/sprite.png) 0 -26px no-repeat;
+      background: url(../img/dark_square/sprite.png) 0 -26px no-repeat;
       &:hover {
         cursor: pointer;
 
-        background: url(images/prettyPhoto/dark_square/sprite.png) 0 -47px no-repeat;
+        background: url(../img/dark_square/sprite.png) 0 -47px no-repeat;
       }
     }
     .pp_close {
@@ -404,7 +404,7 @@ div {
 
       cursor: pointer;
 
-      background: url(images/prettyPhoto/dark_square/sprite.png) -1px -1px no-repeat;
+      background: url(../img/dark_square/sprite.png) -1px -1px no-repeat;
     }
     .pp_nav {
       clear: none;
@@ -412,51 +412,51 @@ div {
         width: 14px;
         height: 15px;
 
-        background: url(images/prettyPhoto/dark_square/sprite.png) -1px -100px no-repeat;
+        background: url(../img/dark_square/sprite.png) -1px -100px no-repeat;
       }
       .pp_pause {
         width: 14px;
         height: 15px;
 
-        background: url(images/prettyPhoto/dark_square/sprite.png) -24px -100px no-repeat;
+        background: url(../img/dark_square/sprite.png) -24px -100px no-repeat;
       }
     }
     .pp_arrow_previous {
-      background: url(images/prettyPhoto/dark_square/sprite.png) 0 -71px no-repeat;
+      background: url(../img/dark_square/sprite.png) 0 -71px no-repeat;
     }
     .pp_arrow_next {
-      background: url(images/prettyPhoto/dark_square/sprite.png) -22px -71px no-repeat;
+      background: url(../img/dark_square/sprite.png) -22px -71px no-repeat;
     }
     .pp_next:hover {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/dark_square/btnNext.png) center right no-repeat;
+      background: url(../img/dark_square/btnNext.png) center right no-repeat;
     }
     .pp_previous:hover {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/dark_square/btnPrevious.png) center left no-repeat;
+      background: url(../img/dark_square/btnPrevious.png) center left no-repeat;
     }
   }
   &.light_square {
     .pp_expand {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/light_square/sprite.png) -31px -26px no-repeat;
+      background: url(../img/light_square/sprite.png) -31px -26px no-repeat;
       &:hover {
         cursor: pointer;
 
-        background: url(images/prettyPhoto/light_square/sprite.png) -31px -47px no-repeat;
+        background: url(../img/light_square/sprite.png) -31px -47px no-repeat;
       }
     }
     .pp_contract {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/light_square/sprite.png) 0 -26px no-repeat;
+      background: url(../img/light_square/sprite.png) 0 -26px no-repeat;
       &:hover {
         cursor: pointer;
 
-        background: url(images/prettyPhoto/light_square/sprite.png) 0 -47px no-repeat;
+        background: url(../img/light_square/sprite.png) 0 -47px no-repeat;
       }
     }
     .pp_close {
@@ -465,77 +465,77 @@ div {
 
       cursor: pointer;
 
-      background: url(images/prettyPhoto/light_square/sprite.png) -1px -1px no-repeat;
+      background: url(../img/light_square/sprite.png) -1px -1px no-repeat;
     }
     .pp_nav {
       .pp_play {
         width: 14px;
         height: 15px;
 
-        background: url(images/prettyPhoto/light_square/sprite.png) -1px -100px no-repeat;
+        background: url(../img/light_square/sprite.png) -1px -100px no-repeat;
       }
       .pp_pause {
         width: 14px;
         height: 15px;
 
-        background: url(images/prettyPhoto/light_square/sprite.png) -24px -100px no-repeat;
+        background: url(../img/light_square/sprite.png) -24px -100px no-repeat;
       }
     }
     .pp_arrow_previous {
-      background: url(images/prettyPhoto/light_square/sprite.png) 0 -71px no-repeat;
+      background: url(../img/light_square/sprite.png) 0 -71px no-repeat;
     }
     .pp_arrow_next {
-      background: url(images/prettyPhoto/light_square/sprite.png) -22px -71px no-repeat;
+      background: url(../img/light_square/sprite.png) -22px -71px no-repeat;
     }
     .pp_next:hover {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/light_square/btnNext.png) center right no-repeat;
+      background: url(../img/light_square/btnNext.png) center right no-repeat;
     }
     .pp_previous:hover {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/light_square/btnPrevious.png) center left no-repeat;
+      background: url(../img/light_square/btnPrevious.png) center left no-repeat;
     }
   }
   &.facebook {
     .pp_top {
       .pp_left {
-        background: url(images/prettyPhoto/facebook/sprite.png) -88px -53px no-repeat;
+        background: url(../img/facebook/sprite.png) -88px -53px no-repeat;
       }
       .pp_middle {
-        background: url(images/prettyPhoto/facebook/contentPatternTop.png) top left repeat-x;
+        background: url(../img/facebook/contentPatternTop.png) top left repeat-x;
       }
       .pp_right {
-        background: url(images/prettyPhoto/facebook/sprite.png) -110px -53px no-repeat;
+        background: url(../img/facebook/sprite.png) -110px -53px no-repeat;
       }
     }
     .pp_content_container {
       .pp_left {
-        background: url(images/prettyPhoto/facebook/contentPatternLeft.png) top left repeat-y;
+        background: url(../img/facebook/contentPatternLeft.png) top left repeat-y;
       }
       .pp_right {
-        background: url(images/prettyPhoto/facebook/contentPatternRight.png) top right repeat-y;
+        background: url(../img/facebook/contentPatternRight.png) top right repeat-y;
       }
     }
     .pp_expand {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;
+      background: url(../img/facebook/sprite.png) -31px -26px no-repeat;
       &:hover {
         cursor: pointer;
 
-        background: url(images/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;
+        background: url(../img/facebook/sprite.png) -31px -47px no-repeat;
       }
     }
     .pp_contract {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;
+      background: url(../img/facebook/sprite.png) 0 -26px no-repeat;
       &:hover {
         cursor: pointer;
 
-        background: url(images/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat;
+        background: url(../img/facebook/sprite.png) 0 -47px no-repeat;
       }
     }
     .pp_close {
@@ -544,20 +544,20 @@ div {
 
       cursor: pointer;
 
-      background: url(images/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;
+      background: url(../img/facebook/sprite.png) -1px -1px no-repeat;
     }
     .pp_description {
       margin: 0 37px 0 0;
     }
     .pp_loaderIcon {
-      background: url(images/prettyPhoto/facebook/loader.gif) center center no-repeat;
+      background: url(../img/facebook/loader.gif) center center no-repeat;
     }
     .pp_arrow_previous {
       width: 22px;
       height: 22px;
       margin-top: 0;
 
-      background: url(images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;
+      background: url(../img/facebook/sprite.png) 0 -71px no-repeat;
       &.disabled {
         cursor: default;
 
@@ -569,7 +569,7 @@ div {
       height: 22px;
       margin-top: 0;
 
-      background: url(images/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat;
+      background: url(../img/facebook/sprite.png) -32px -71px no-repeat;
       &.disabled {
         cursor: default;
 
@@ -587,34 +587,34 @@ div {
         width: 22px;
         height: 22px;
 
-        background: url(images/prettyPhoto/facebook/sprite.png) -1px -123px no-repeat;
+        background: url(../img/facebook/sprite.png) -1px -123px no-repeat;
       }
       .pp_pause {
         width: 22px;
         height: 22px;
 
-        background: url(images/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;
+        background: url(../img/facebook/sprite.png) -32px -123px no-repeat;
       }
     }
     .pp_next:hover {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/facebook/btnNext.png) center right no-repeat;
+      background: url(../img/facebook/btnNext.png) center right no-repeat;
     }
     .pp_previous:hover {
       cursor: pointer;
 
-      background: url(images/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;
+      background: url(../img/facebook/btnPrevious.png) center left no-repeat;
     }
     .pp_bottom {
       .pp_left {
-        background: url(images/prettyPhoto/facebook/sprite.png) -88px -80px no-repeat;
+        background: url(../img/facebook/sprite.png) -88px -80px no-repeat;
       }
       .pp_middle {
-        background: url(images/prettyPhoto/facebook/contentPatternBottom.png) top left repeat-x;
+        background: url(../img/facebook/contentPatternBottom.png) top left repeat-x;
       }
       .pp_right {
-        background: url(images/prettyPhoto/facebook/sprite.png) -110px -80px no-repeat;
+        background: url(../img/facebook/sprite.png) -110px -80px no-repeat;
       }
     }
   }
@@ -789,7 +789,7 @@ a {
       width: 50px;
       height: 33px;
 
-      background: url(images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
+      background: url(../img/facebook/default_thumbnail.gif) 0 0 no-repeat;
     }
   }
   .pp_arrow_previous,
@@ -808,7 +808,7 @@ a {
 
     text-indent: -10000px;
 
-    background: url(images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+    background: url(../img/light_rounded/btnNext.png) 10000px 10000px no-repeat;
   }
   &.pp_previous {
     display: block;
@@ -819,7 +819,7 @@ a {
 
     text-indent: -10000px;
 
-    background: url(images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+    background: url(../img/light_rounded/btnNext.png) 10000px 10000px no-repeat;
   }
   &.pp_expand,
   &.pp_contract {
@@ -1003,13 +1003,13 @@ div {
   }
   &.light_rounded .pp_loaderIcon,
   &.light_square .pp_loaderIcon {
-    background: url(images/prettyPhoto/light_rounded/loader.gif) center center no-repeat;
+    background: url(../img/light_rounded/loader.gif) center center no-repeat;
   }
   &.dark_rounded {
     .pp_top .pp_middle,
     .pp_content,
     .pp_bottom .pp_middle {
-      background: url(images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat;
+      background: url(../img/dark_rounded/contentPattern.png) top left repeat;
     }
     .currentTextHolder {
       color: #c4c4c4;
