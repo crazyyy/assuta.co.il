@@ -27,8 +27,6 @@ function setMenuSize() {
   //  alert(menusize) ;
 }
 
-
-
 function LargeImageShow(LImageUrl, ImageW, ImageH) {
   ImageH += 20;
   ImageW += 20;
@@ -83,40 +81,40 @@ var t = 0;
 var fade = 1;
 var stopSlide = false;
 
-function showContent(num) {
+// function showContent(num) {
 
-  t = num;
-  if (ii <= t) {
-    // document.getElementById("divNews" + ii).style.display = "";
-    setTimeout("hideContent()", 6000);
-  }
-}
+//   t = num;
+//   if (ii <= t) {
+//     // document.getElementById("divNews" + ii).style.display = "";
+//     setTimeout("hideContent()", 6000);
+//   }
+// }
 
-function hideContent() {
-  if (!stopSlide) {
-    fadeIt();
-  }
-}
+// function hideContent() {
+//   if (!stopSlide) {
+//     fadeIt();
+//   }
+// }
 
-function fadeIt() {
+// function fadeIt() {
 
-  if (fade < 5) {
-    document.getElementById("fadeTD").className = "fade" + fade;
+//   if (fade < 5) {
+//     document.getElementById("fadeTD").className = "fade" + fade;
 
-    fade++;
-    setTimeout("fadeIt()", 150);
-  } else {
-    document.getElementById("divNews" + ii).style.display = "none";
+//     fade++;
+//     setTimeout("fadeIt()", 150);
+//   } else {
+//     document.getElementById("divNews" + ii).style.display = "none";
 
-    if (ii == t)
-      ii = 1;
-    else
-      ii++;
+//     if (ii == t)
+//       ii = 1;
+//     else
+//       ii++;
 
-    document.getElementById("divNews" + ii).style.display = "";
-    showNextItem();
-  }
-}
+//     document.getElementById("divNews" + ii).style.display = "";
+//     showNextItem();
+//   }
+// }
 
 function showNextItem() {
   if (fade > 1) {

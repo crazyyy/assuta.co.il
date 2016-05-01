@@ -37,7 +37,7 @@
   <script src="<?php echo get_template_directory_uri(); ?>/js/c_smartmenus.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/functionjs.js"></script>
   <script>
-  showContent('11');
+  // showContent('11');
   $(document).ready(function() {
     // swiper2 - main
     var mySwiper2 = new Swiper('.home-swiper2 .swiper-container', {

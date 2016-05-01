@@ -1,18 +1,29 @@
 <?php get_header(); ?>
-  <?php if (have_posts()): while (have_posts()) : the_post(); ?>
-    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-      <h1 class="page-title inner-title"><?php the_title(); ?></h1>
-      <?php the_content(); ?>
-      <?php edit_post_link(); ?>
+<table width="1010" height="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top">
 
-    </article>
-  <?php endwhile; else: // If 404 page error ?>
-    <article>
+    <?php get_sidebar('left-page'); ?>
 
-      <h2 class="page-title inner-title"><?php _e( 'Sorry, nothing to display.', 'wpeasy' ); ?></h2>
+    <td class="CenterPanel" width="100%" height="100%">
+      <table border="0" cellspacing="0" cellpadding="0">
 
-    </article>
-  <?php endif; ?>
-<?php get_sidebar(); ?>
+        <tr valign="top">
+          <td class="centerzone">
+            <?php if (function_exists('easy_breadcrumbs')) easy_breadcrumbs(); ?>
+
+            <h1 class="page-title"><?php the_title(); ?></h1>
+
+            <div class="HTMLtext">
+              <?php the_content(); ?>
+            </div><!-- HTMLtext -->
+
+          </td>
+          <?php get_sidebar('right'); ?>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
 <?php get_footer(); ?>

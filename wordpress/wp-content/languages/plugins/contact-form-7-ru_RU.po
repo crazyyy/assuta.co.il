@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-25 04:31:32+0000\n"
+"PO-Revision-Date: 2016-04-30 18:23:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,19 +20,19 @@ msgstr "http://contactform7.com/configuration-validator-faq/"
 
 #: modules/date.php:123
 msgid "The date is before the earliest one allowed."
-msgstr "Указана слишком ранняя дата."
+msgstr "Введённая дата слишком далеко в прошлом."
 
 #: modules/date.php:128
 msgid "The date is after the latest one allowed."
-msgstr "Указана слишком поздняя дата."
+msgstr "Введённая дата слишком далеко в будущем."
 
 #: modules/file.php:196
 msgid "There was an unknown error uploading the file."
-msgstr "Произошла ошибка при загрузке файла."
+msgstr "При загрузке файла произошла неизвестная ошибка."
 
 #: modules/file.php:201
 msgid "You are not allowed to upload files of this type."
-msgstr "Этот тип файла не разрешен."
+msgstr "Вам не разрешено загружать файлы этого типа."
 
 #: modules/file.php:206
 msgid "The file is too big."
@@ -40,35 +40,35 @@ msgstr "Файл слишком большой."
 
 #: modules/file.php:211
 msgid "There was an error uploading the file."
-msgstr "Ошибка при загрузке файла."
+msgstr "При загрузке файла произошла ошибка."
 
 #: modules/number.php:121
 msgid "The number format is invalid."
-msgstr "Числовой формат некорректен."
+msgstr "Формат числа некорректен."
 
 #: modules/number.php:126
 msgid "The number is smaller than the minimum allowed."
-msgstr "Это число слишком мало."
+msgstr "Число меньше минимально допустимого."
 
 #: modules/number.php:131
 msgid "The number is larger than the maximum allowed."
-msgstr "Это число слишком велико."
+msgstr "Число больше максимально допустимого."
 
 #: modules/quiz.php:150
 msgid "The answer to the quiz is incorrect."
-msgstr "Вы ввели некорректный ответ."
+msgstr "Ответ на задачку неверен."
 
 #: modules/text.php:170
 msgid "The e-mail address entered is invalid."
-msgstr "Некорректный e-mail адрес."
+msgstr "Введённый электронный адрес неверен."
 
 #: modules/text.php:175
 msgid "The URL is invalid."
-msgstr "Некорректный URL."
+msgstr "Адрес ссылки неверен."
 
 #: modules/text.php:180
 msgid "The telephone number is invalid."
-msgstr "Некорректный номер телефона"
+msgstr "Номер телефона неверен."
 
 #: admin/admin.php:162
 msgid "You are not allowed to validate configuration."
@@ -166,7 +166,7 @@ msgstr "Вы должны принять условия и положения п
 
 #: includes/contact-form-template.php:158
 msgid "The field is required."
-msgstr "Обязательное поле."
+msgstr "Поле обязательно."
 
 #: includes/contact-form-template.php:165
 msgid "The field is too long."
@@ -186,7 +186,7 @@ msgstr "Пожалуйста подтвердите, что Вы - не робо
 
 #: modules/really-simple-captcha.php:202
 msgid "CAPTCHA (Really Simple CAPTCHA)"
-msgstr "CAPTCHA  (Действительно простая CAPTCHA)"
+msgstr "КАПТЧА (Действительно простая КАПТЧА)"
 
 #: modules/recaptcha.php:23 modules/recaptcha.php:184 modules/recaptcha.php:388
 #: modules/recaptcha.php:401 modules/recaptcha.php:411
@@ -207,7 +207,7 @@ msgstr "Настройки сохранены."
 
 #: modules/recaptcha.php:150
 msgid "reCAPTCHA is a free service to protect your website from spam and abuse."
-msgstr "reCAPTCHA - представляет собой бесплатный сервис защиты Вашего веб-сайта от спама и оскоблений."
+msgstr "reCAPTCHA - представляет собой бесплатный сервис,чтобы защитить Ваш веб-сайт от спама и оскоблений."
 
 #: modules/recaptcha.php:165 modules/recaptcha.php:196
 msgid "Site Key"
@@ -272,7 +272,7 @@ msgstr "Компактная"
 
 #: admin/includes/editor.php:178
 msgid "File Attachments"
-msgstr "Прикрепленные файлы"
+msgstr "Прикреплённые файлы"
 
 #: admin/includes/editor.php:204
 msgid "Edit messages used in the following situations."
@@ -880,7 +880,7 @@ msgstr "http://contactform7.com/text-fields/"
 
 #: modules/text.php:219 modules/textarea.php:135
 msgid "Text Fields"
-msgstr "Текстовые Поля"
+msgstr "Текстовое Поле"
 
 #: modules/text.php:251 modules/text.php:254
 msgid "Akismet"
@@ -926,7 +926,7 @@ msgstr "Takayuki Miyoshi"
 msgid "http://ideasilo.wordpress.com/"
 msgstr "http://ideasilo.wordpress.com/"
 
-#. #-#-#-#-#  tmp-contact-form-7.pot (Contact Form 7 4.4.1)  #-#-#-#-#
+#. #-#-#-#-#  tmp-contact-form-7.pot (Contact Form 7 4.4.2)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: admin/admin.php:20 modules/flamingo.php:137
 msgid "Contact Form 7"
@@ -1246,11 +1246,11 @@ msgstr "В следующих полях Вы можете использова�
 
 #: admin/includes/editor.php:104
 msgid "To"
-msgstr "На"
+msgstr "Кому"
 
 #: admin/includes/editor.php:118
 msgid "From"
-msgstr "От"
+msgstr "От кого"
 
 #: admin/includes/editor.php:132 includes/contact-form-template.php:29
 msgid "Subject"
@@ -1262,7 +1262,7 @@ msgstr "Дополнительные заголовки"
 
 #: admin/includes/editor.php:160
 msgid "Message Body"
-msgstr "Тело сообщения"
+msgstr "Тело письма"
 
 #: admin/includes/editor.php:170
 msgid "Exclude lines with blank mail-tags from output"

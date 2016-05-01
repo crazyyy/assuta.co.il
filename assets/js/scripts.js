@@ -22,3 +22,21 @@ if (typeof jQuery == 'undefined') {
 }
 // Place any jQuery/helper plugins in here.
 
+
+if ( $('.headnav').children('.current_page_item').length > 0 ) {
+
+  var parentContent = $('.headnav .current_page_item').children('.sub-menu').html();
+  var currentNavTitle = $('.headnav .current_page_item a').html();
+  $('.right-bar-navi').html(parentContent);
+  $('.blue-top-text').html(currentNavTitle);
+
+} else if ( $('.headnav').children('.current_page_parent').length > 0 ) {
+
+  var parentContent = $('.headnav .current_page_parent').children('.sub-menu').html();
+  var currentNavTitle = $('.headnav .current_page_parent a').html();
+  $('.right-bar-navi').html(parentContent);
+  $('.blue-top-text').html(currentNavTitle);
+
+
+}
+
