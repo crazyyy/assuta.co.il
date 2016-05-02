@@ -76,7 +76,7 @@
         <div class="header_right_div">
           <a href="<?php echo home_url(); ?>/contact.htm">
             <div class="contact_title">Консультация бесплатно</div>
-            <div class="contact_phone">+972-3-7643247</div>
+            <div class="contact_phone">+972 747-02-02-02</div>
           </a>
         </div><!-- header_right_div -->
 
@@ -98,7 +98,12 @@
           <?php wpeHeadNavBott(); ?>
         </div><!-- /.header-bottom-menu -->
       </div><!-- headerok -->
+
+<?php if ( is_page_template( 'front-page.php' ) ) { ?>
+
+<?php } else { ?>
     </td>
   </tr>
 </table>
+<?php } ?>
 <!-- header -->

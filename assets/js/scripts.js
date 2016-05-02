@@ -45,4 +45,14 @@ if ( $('.headnav').children('.current_page_item').length > 0 ) {
   $('.blue-top-text').html(currentNavTitle);
 
 }
-
+if ( $('.right-bar-navi').children('li').length == 0 ) {
+  $('.centerzone').css({
+    width: '725px'
+  });
+  $('.HTMLtext').css({
+    width: '725px'
+  });
+  $('.sidebar-right').css({
+    display: 'none'
+  });
+}
