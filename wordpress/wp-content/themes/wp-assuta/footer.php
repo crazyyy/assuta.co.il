@@ -43,23 +43,6 @@
   </table>
 
   <?php wp_footer(); ?>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/idangerous.swiper.min.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/c_config.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/c_smartmenus.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/functionjs.js"></script>
-  <script>
-  // showContent('11');
-  $(document).ready(function() {
-    // swiper2 - main
-    var mySwiper2 = new Swiper('.home-swiper2 .swiper-container', {
-      autoplay: 5000,
-      pagination: '.pagination2',
-      loop: true,
-      grabCursor: true,
-      paginationClickable: true
-    });
-  });
-  </script>
 
 </body>
 </html>

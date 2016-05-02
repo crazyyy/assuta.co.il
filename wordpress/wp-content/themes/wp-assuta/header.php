@@ -49,7 +49,7 @@
                       </tbody>
                     </table>
                   </td>
-                  <td class="topMenu">28/04/2016</td>
+                  <td class="topMenu"><?php echo date("d"); ?>/<?php echo date("m"); ?>/<?php echo date("Y"); ?></td>
                   <td class="topMenu"></td>
                   <td class="topMenu"></td>
                   <td class="topMenu">

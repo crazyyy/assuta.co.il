@@ -1,6 +1,7 @@
 @import 'import/variables';
 @import 'import/mixin';
 @import 'import/wordpress';
+@import 'owl.carousel';
 @import 'sprite';
 .clearfix {
   *zoom: 1;
@@ -3574,6 +3575,8 @@ td.CenterPanel.relax_center {
   margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
+  height: 360px;
+  background-color: red;
 }
 
 .homepage-form {
