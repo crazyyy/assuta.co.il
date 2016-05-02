@@ -1,5 +1,6 @@
 AddDefaultCharset UTF-8
 php_value memory_limit 512M
+php_value max_input_vars 5000
 
 # supress php errors
 php_flag display_startup_errors off

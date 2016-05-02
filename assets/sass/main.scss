@@ -3982,6 +3982,7 @@ td.CenterPanel.relax_center {
     }
   }
 }
+
 .headnav {
   display: block;
   float: right;
@@ -4099,6 +4100,11 @@ td.CenterPanel.relax_center {
         }
       }
     }
+  }
+}
+.menu {
+  ul {
+    @extend .headnav;
   }
 }
 .header-bottom-menu {
