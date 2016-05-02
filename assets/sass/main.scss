@@ -4222,11 +4222,8 @@ td.CenterPanel.relax_center {
   background-color: #cbdeed;
   > li {
     padding: 7px 18px;
-    /*
-
-    */
-
     background: #dae8f2 url('../img/department_bg1.jpg') top left no-repeat;
+    &.current_page_ancestor,
     &.current-menu-item {
       background: #294696 url('../img/department_bg_over1.jpg') top left no-repeat;
       a {
@@ -4235,6 +4232,11 @@ td.CenterPanel.relax_center {
       &:hover {
         a {
           color: #fff;
+        }
+      }
+      .current-menu-item {
+        a {
+          color: #000 !important;
         }
       }
     }
@@ -4247,7 +4249,8 @@ td.CenterPanel.relax_center {
   li {
     list-style: none;
     list-style-image: none;
-    &.current_page_item {
+    &.current_page_item,
+    &.current_page_ancestor {
       &.menu-item-has-children {
         padding-bottom: 0;
         .sub-menu {

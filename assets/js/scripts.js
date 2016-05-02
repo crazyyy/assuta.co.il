@@ -37,6 +37,12 @@ if ( $('.headnav').children('.current_page_item').length > 0 ) {
   $('.right-bar-navi').html(parentContent);
   $('.blue-top-text').html(currentNavTitle);
 
+} else if ( $('.headnav').children('.current-page-ancestor').children('.sub-menu').children('.current_page_parent').children('.sub-menu').children('.current_page_item').length > 0 ) {
+
+  var parentContent = $('.headnav .current-page-ancestor').children('.sub-menu').html();
+  var currentNavTitle = $('.headnav .current_page_parent a').html();
+  $('.right-bar-navi').html(parentContent);
+  $('.blue-top-text').html(currentNavTitle);
 
 }
 
