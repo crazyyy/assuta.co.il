@@ -1,5 +1,14 @@
 <div class="homepage-slider">
-
+  <?php if( have_rows('slider_top') ): while ( have_rows('slider_top') ) : the_row(); ?>
+    <?php $image = get_sub_field('image'); ?>
+    <div class="item">
+      <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+      <h4>
+        <?php the_sub_field('description'); ?>
+        <a href="<?php the_sub_field('link'); ?>">подробнее...</a>
+      </h4>
+    </div>
+  <?php endwhile; endif; ?>
 </div>
 
 <div class="homepage-form">

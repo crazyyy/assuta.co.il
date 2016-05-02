@@ -41,7 +41,6 @@
       </td>
     </tr>
   </table>
-
   <?php wp_footer(); ?>
 
 </body>

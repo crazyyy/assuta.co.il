@@ -1189,3 +1189,11 @@ $(document).ready(function() {
     paginationClickable: true
   });
 });
+$('.homepage-slider').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:false,
+  dots:true,
+  dotsEach:true,
+  items:1
+})

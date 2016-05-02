@@ -13,7 +13,6 @@
         </div>
       </div>
 
-
       <div class="home-center-content">
 
         <div class="home-swiper2">

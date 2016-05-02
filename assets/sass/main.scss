@@ -3569,14 +3569,66 @@ td.CenterPanel.relax_center {
 /* new homepage */
 
 .homepage-slider {
+  position: relative;
+
   float: left;
 
   width: 660px;
+  height: 360px;
   margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
-  height: 360px;
-  background-color: red;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .owl-stage-outer {
+    height: 360px;
+  }
+  .owl-item {
+    height: 360px;
+    .item {
+      height: 360px;
+    }
+  }
+  h4 {
+    line-height: 1.6;
+
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+    left: 350px;
+
+    width: 40%;
+    padding: 10px;
+
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .7);
+  }
+  .owl-controls {
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+
+    height: 10px;
+    .owl-dots {
+      padding-left: 30px;
+    }
+    .owl-dot {
+      display: inline-block;
+
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+
+      border: 1px solid #112996;
+      border-radius: 50%;
+      background-color: #112996;
+      &.active {
+        background-color: #fff;
+      }
+    }
+  }
 }
 
 .homepage-form {
