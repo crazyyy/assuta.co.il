@@ -3,7 +3,7 @@
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="user-scalable=yes, width=1010">
 
   <title><?php wp_title( '' ); ?><?php if ( wp_title( '', false ) ) { echo ' :'; } ?> <?php bloginfo( 'name' ); ?></title>
 
@@ -24,59 +24,58 @@
   <tr>
     <td>
       <div class="headerok clearfix">
-        <div class="header_left_div">
-          <div class="AssutaMainTitle">
-            <h1><?php bloginfo( 'name' ); ?></h1>
-          </div>
+        <h1 class="AssutaMainTitle"><?php bloginfo( 'name' ); ?></h1>
           <div class="header-container">
             <img src="<?php echo get_template_directory_uri(); ?>/img/JCI_logo50.jpg" style="float:right;margin-right: 10px;">
             <table border="0" class="topmenuh" cellspacing="0" cellpadding="0" style="padding-top:20px;">
-              <tbody>
-                <tr>
-                  <td>
-                    <table name="SearchBar" cellpadding="0" cellspacing="0" border="0" align="center">
-                      <tbody>
-                        <tr>
-                          <td valign="top">
-                            <form name="searchform" method="get" style="margin:0px;" action="<?php bloginfo('url'); ?>/">
-                            <input type="text" name="s" class="search_input" placeholder="Поиск">
-                          </td>
-                          <td>
-                            <input src="<?php echo get_template_directory_uri(); ?>/img/search_button1.gif" value="submit" type="image" border="0" alt="Поиск">
-                            </form>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </td>
-                  <td class="topMenu"><?php echo date("d"); ?>/<?php echo date("m"); ?>/<?php echo date("Y"); ?></td>
-                  <td class="topMenu"></td>
-                  <td class="topMenu"></td>
-                  <td class="topMenu">
-                    <a href="#" target="_blank">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/new_fb_icon.png" border="0" alt="">
-                    </a>
-                  </td>
-                  <td class="topMenu">
-                    <a target="_blank" href="#">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/youtube.jpg" height="18" border="0" alt="">
-                    </a>
-                  </td>
-                  <td class="topMenu">
-                    <a target="_blank" href="#">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/vk.png" border="0" height="18" alt="">
-                    </a>
-                  </td>
-                </tr>
-              </tbody>
+              <tr>
+                <td>
+                  <table name="SearchBar" cellpadding="0" cellspacing="0" border="0" align="center">
+                    <tbody>
+                      <tr>
+                        <td valign="top">
+                          <form name="searchform" method="get" style="margin:0px;" action="<?php bloginfo('url'); ?>/">
+                          <input type="text" name="s" class="search_input" placeholder="Поиск">
+                        </td>
+                        <td>
+                          <input src="<?php echo get_template_directory_uri(); ?>/img/search_button1.gif" value="submit" type="image" border="0" alt="Поиск">
+                          </form>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+                <td class="topMenu"><?php echo date("d"); ?>/<?php echo date("m"); ?>/<?php echo date("Y"); ?></td>
+                <td class="topMenu"></td>
+                <td class="topMenu"></td>
+                <td class="topMenu">
+<!--                   <a href="#" target="_blank">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/new_fb_icon.png" border="0" alt="">
+</a> -->
+                </td>
+                <td class="topMenu">
+<!--                   <a target="_blank" href="#">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/youtube.jpg" height="18" border="0" alt="">
+</a> -->
+                </td>
+                <td class="topMenu">
+<!--                   <a target="_blank" href="#">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/vk.png" border="0" height="18" alt="">
+</a> -->
+                </td>
+              </tr>
             </table>
           </div><!-- header-container -->
-        </div><!-- header_left_div -->
 
         <div class="header_right_div">
           <a href="<?php echo home_url(); ?>/contact.htm">
             <div class="contact_title">Консультация бесплатно</div>
-            <div class="contact_phone">+972 747-02-02-02</div>
+            <ul class="contact-phones">
+              <li class="phone-hb">+972 747-02-02-02</li>
+              <li class="phone-ru">8 800-333-02-38</li>
+              <li class="phone-ua">0 800-502-083</li>
+              <li class="phone-kz"> +7 727-350-54-50</li>
+            </ul><!-- contact-phones -->
           </a>
         </div><!-- header_right_div -->
 

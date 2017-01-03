@@ -12,7 +12,7 @@
               <span>Адрес: <span>Тель Авив, ул. Барзель 19</span></span>
               <span>Тел: <a href="tel:+972747020202">+972 747-02-02-02</a></span>
               <span>Факс: <a href="tel:+972772070297">+972 772-07-02-97</a></span>
-              <span>Email: <a href="mailto:info@monada-israel.com">info@monada-israel.com</a></span>
+              <span>Email: <a href="mailto:info@assutamed.com ">info@assutamed.com</a></span>
             </li>
             <li>
               <h4>Представительство в России</h4>
@@ -38,6 +38,7 @@
             </li>
           </ul><!-- home-footer-contacts -->
         </div><!-- /.home-footer-block -->
+        <h6 class="copy">Материал взят с сайта https://ru.assuta.co.il</h6>
       </td>
     </tr>
   </table>

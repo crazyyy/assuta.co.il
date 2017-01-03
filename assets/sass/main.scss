@@ -2407,6 +2407,9 @@ td#CaptchaIcons {
   font-size: 20px;
   font-weight: bold;
 
+  float: left;
+
+  width: 100%;
   padding-top: 13px;
   padding-right: 20px;
 
@@ -2426,7 +2429,11 @@ td#CaptchaIcons {
   }
 }
 .header-container {
+  float: left;
+
+  width: 390px;
   height: 49px;
+  margin-bottom: 3px;
   padding-top: 7px;
 
   vertical-align: bottom;
@@ -2553,6 +2560,9 @@ td#CaptchaIcons {
 
 .FeedbackFormInputs {
   padding: 3px 0 10px;
+  textarea {
+    width: 175px;
+  }
 }
 
 .FeedbackCaption a {
@@ -2698,7 +2708,6 @@ td#CaptchaIcons {
   width: 711px;
   height: 85px;
   margin-bottom: 3px;
-  /* height: 65px; */
 }
 
 .clear_both {
@@ -2706,27 +2715,48 @@ td#CaptchaIcons {
 }
 
 .header_right_div {
-  float: left;
+  position: relative;
 
-  width: 299px;
-  height: 49px;
-  margin-top: 38px;
+  float: right;
+
+  width: 610px;
+  height: 56px;
   margin-bottom: 3px;
 
-  background: url('../img/contact_bg.jpg') top right no-repeat;
+  border: 1px solid #797979;
+  border-radius: 4px;
+
+  @include linear-gradient(#fefefe, #ececec);
+  &:before,
+  &:after {
+    @extend .dblock;
+  }
+  a {
+    position: relative;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    @extend .clearfix;
+  }
   .contact_title {
     font-size: 16px;
     font-weight: bold;
 
     float: left;
 
-    width: 110px;
-    padding-top: 7px;
+    width: 130px;
+    height: 44px;
+    padding-top: 12px;
     padding-left: 12px;
 
     text-align: center;
 
     color: #fff;
+
+    @include linear-gradient(#71ac2e, #5a8e05);
     a {
       text-decoration: none;
 
@@ -2742,12 +2772,69 @@ td#CaptchaIcons {
     width: 150px;
     margin-left: 5px;
     padding-top: 7px;
-    padding-top: 16px;
     padding-left: 12px;
 
     text-align: center;
+  }
+  .contact-phones {
+    display: block;
+    float: right;
 
-    color: #7db51c;
+    width: 468px;
+    height: 56px;
+    margin: 0;
+    padding: 0;
+
+    @extend .clearfix;
+    ul,
+    li {
+      list-style-type: none;
+    }
+    li {
+      font-size: 120%;
+      font-weight: bold;
+      line-height: 1.6;
+
+      position: relative;
+
+      display: inline-block;
+      float: left;
+
+      width: 184px;
+      height: 28px;
+      padding-left: 50px;
+
+      text-align: left;
+
+      color: #7db51c;
+      &:before {
+        position: absolute;
+        top: 2px;
+        left: 10px;
+
+        @extend .dblock;
+      }
+      &.phone-hb {
+        &:before {
+          @include sprite($sprite-israel);
+        }
+      }
+      &.phone-kz {
+        &:before {
+          @include sprite($sprite-kazakhstan);
+        }
+      }
+      &.phone-ru {
+        &:before {
+          @include sprite($sprite-russian);
+        }
+      }
+      &.phone-ua {
+        &:before {
+          @include sprite($sprite-ukraine);
+        }
+      }
+    }
   }
 }
 
@@ -3640,6 +3727,11 @@ td.CenterPanel.relax_center {
 
 .home-footer {
   padding-top: 18px;
+  h6 {
+    font-size: 110%;
+
+    text-align: center;
+  }
 }
 
 .home-left-panel {
@@ -3724,6 +3816,9 @@ td.CenterPanel.relax_center {
         padding-bottom: 5px;
       }
     }
+    p {
+      margin: 0;
+    }
     .input-text {
       font-size: 13px;
 
@@ -3740,7 +3835,7 @@ td.CenterPanel.relax_center {
     .txt-msg {
       width: 275px;
       height: 65px;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
 
       border: 1px solid #7193b3;
       background-color: #fcfafb;
@@ -3748,6 +3843,24 @@ td.CenterPanel.relax_center {
     .submit-btn {
       float: right;
     }
+    input[type='submit'] {
+      font-size: 0;
+
+      width: 111px;
+      height: 33px;
+
+      cursor: pointer;
+
+      border: 0;
+      background-color: transparent;
+      background-image: url(../img/home-frm-btn.jpg);
+      &:hover {
+        opacity: .9;
+      }
+    }
+  }
+  .wpcf7-response-output {
+    margin: -1em .5em 1em;
   }
 }
 
@@ -4468,5 +4581,17 @@ td.CenterPanel.relax_center {
 .home-left-panel {
   img {
     width: 100%;
+  }
+}
+body {
+  &.contact {
+    .centerzone {
+      .inputBoxTxt {
+        width: 175px;
+      }
+      textarea {
+        width: 400px;
+      }
+    }
   }
 }
